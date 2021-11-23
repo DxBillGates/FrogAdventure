@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectX12">
+      <UniqueIdentifier>{6d41a73c-9416-4089-a389-237d5060b650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{f0964ca8-59f0-434b-8653-48bddc84eaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{70845644-af88-4648-be95-9366f7dbbf89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX12\ソース ファイル">
+      <UniqueIdentifier>{1b4e5b2d-5858-472f-842f-2658053194e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX12\ヘッダー ファイル">
+      <UniqueIdentifier>{ddb336d8-1bc4-4a36-ba7c-82a623f3705e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\ソース ファイル">
+      <UniqueIdentifier>{dfa41b8e-bf0f-4525-80b2-e381c7164a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\ヘッダー ファイル">
+      <UniqueIdentifier>{5e938895-745f-429e-91a9-096ad8da8c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\ソース ファイル">
+      <UniqueIdentifier>{c9e67d98-c9a0-46ba-a574-26c206b6195f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\ヘッダー ファイル">
+      <UniqueIdentifier>{b890e4d2-1cf6-4109-a20e-0f7989ca244b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="COMRelease.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_CBVSRVUAVHeap.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_Device.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_Object.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_Object2D.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_Object3D.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_ObjectData.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_ObjectFactory.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_Pipeline.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_Renderer.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_RootSignature.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_Shader.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12_Texture2D.h">
+      <Filter>DirectX12\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>GameObject\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasoline.h">
+      <Filter>GameObject\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Gem.h">
+      <Filter>GameObject\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameObject\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayScene.h">
+      <Filter>GameScene\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>GameScene\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>GameScene\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>GameScene\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RocketParticle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneToScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedUpParticle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Xinput.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dx12_CBVSRVUAVHeap.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_Device.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_Object.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_Object2D.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_Object3D.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_ObjectFactory.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_Pipeline.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_Renderer.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_RootSignature.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_Shader.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx12_Texture2D.cpp">
+      <Filter>DirectX12\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>GameObject\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasoline.cpp">
+      <Filter>GameObject\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Gem.cpp">
+      <Filter>GameObject\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>GameObject\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayScene.cpp">
+      <Filter>GameScene\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>GameScene\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>GameScene\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>GameScene\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RocketParticle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneToScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedUpParticle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Xinput.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="BasicPS.hlsl" />
+    <FxCompile Include="BasicVS.hlsl" />
+    <FxCompile Include="TexPS.hlsl" />
+    <FxCompile Include="TexVS.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BasicShader.hlsli" />
+    <None Include="TexShader.hlsli" />
+  </ItemGroup>
+</Project>
